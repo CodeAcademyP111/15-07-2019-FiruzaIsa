@@ -33,9 +33,9 @@ namespace ConsoleApp2
         }
         public static void CheckPrime(int a)
         {
-#pragma warning disable CS0162 // Unreachable code detected
-            for (int i = 0; i < a; i++)
-#pragma warning restore CS0162 // Unreachable code detected
+
+            for (int i = 2; i < a; i++)
+
             {
 
                 if(a % i == 0)
