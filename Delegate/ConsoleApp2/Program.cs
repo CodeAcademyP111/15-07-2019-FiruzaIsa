@@ -31,7 +31,7 @@ namespace ConsoleApp2
                 Console.WriteLine($"This {a} is the positive number");
             }
         }
-        public static void CheckPrime(int a)
+        static void CheckPrime(int a)
         {
 
             for (int i = 2; i < a; i++)
